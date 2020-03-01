@@ -41,3 +41,31 @@ Default Mode: 我/ 来到/ 北京/ 清华大学
 
 =============================
 隐含马尔可夫模型(HMM）
+
+=============================
+词性标注事件（以鲁迅为例）
+
+import jieba
+import jieba.posseg as pseg
+words = pseg.cut("此后如竟没有炬火我便是唯一的光") #jieba默认模式
+jieba.enable_paddle() #启动paddle模式。 0.40版之后开始支持，早期版本不支持
+words = pseg.cut("我此后如竟没有炬火我便是唯一的光",use_paddle=True) #paddle模式
+for word, flag in words:
+    print('%s %s' % (word, flag))
+    
+=============================
+Paddle enabled successfully......
+2020-03-01 15:04:53,823-DEBUG: Paddle enabled successfully......
+此后 t
+如竟 d
+没有 v
+炬火 n
+, w
+我 r
+便是 v
+唯一 a
+的 u
+光 n
+. w
+>>> 
+    
