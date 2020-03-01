@@ -42,6 +42,12 @@ Default Mode: 我/ 来到/ 北京/ 清华大学
 =============================
 隐含马尔可夫模型(HMM）
 
+    4. 切出了词典中没有的词语，效果不理想？
+    解决方法：关闭新词发现
+    jieba.cut('丰田太省了', HMM=False) jieba.cut('我们中出了一个叛徒', HMM=False)
+
+更多问题请点击：https://github.com/fxsjy/jieba/issues?sort=updated&state=closed
+
 =============================
 词性标注事件（以鲁迅为例）
 
