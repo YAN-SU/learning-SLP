@@ -1,0 +1,12 @@
+【cky剖析】
+
+Exercises
+  13.1 Implement the algorithm to convert arbitrary context-free grammars to CNF.Apply your program to the L1 grammar.
+
+  13.2 Implement the CKY algorithm and test it with your converted L1 grammar.
+
+  13.3 Rewrite the CKY algorithm given in Fig. 13.5 on page 237 so that it can accept grammars that contain unit productions.
+
+  13.4 Discuss the relative advantages and disadvantages of partial versus full parsing.
+
+  13.5 Discuss how to augment a parser to deal with input that may be incorrect, for example, containing spelling errors or mistakes arising from automatic speech recognition.
