@@ -1,0 +1,11 @@
+比较感兴趣的是修辞结构理论(RST）
+  -是一种文本组织模型（句子与句子之间，不是词汇与词汇之间）
+  -基于一个包含23中修辞关系（rhetorical relation）的集合
+  -通常用核心（nucleus）和外围（satellite）关系的箭头来表示RST关系
+  
+  重难点是指代现象和算法：
+    -指代消解的三种算法：
+      -Hobbs算法
+      -Centering算法
+      -log-linear（MaxEnt）算法
+  
